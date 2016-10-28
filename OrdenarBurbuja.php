@@ -15,6 +15,7 @@ function imprime($vector){
 	burbujaAsc($vector);
 	echo "Ordenadar Descendente<br/>	";
 	burbujaDesc($vector);
+	//Este solo es un comentario
 	function burbujaAsc($vector){
 		$temp=0;
 		$n=count($vector);
