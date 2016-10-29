@@ -1,0 +1,91 @@
+*{
+		margin: 0;
+		padding: 1px;	
+	}
+
+	 td {
+		border-style: none;
+		background-color: white;
+		width: 10%;
+		height: 10%;
+		margin-top: 5%;
+		text-align: center;
+		color: #808080;
+	}
+	button{
+		  background-color: #4CAF50;
+   border: none;
+    color: white;
+    padding: 8px 24px;
+    text-decoration: none;
+    margin: 4px 2px;
+    
+	}
+	button:hover{
+
+  cursor: pointer;
+  background-color: #b3003b;
+  color: white;
+}
+	
+	form{
+		width: 95%;
+		position: center;
+	margin-top: 5%;
+	margin-left: 2%;
+	background: rgba(0,0,0,0.1);
+	border-radius: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	text-align: center;
+
+	}
+
+
+@media (max-width: 1024px){
+  #profe, #materia {
+
+	width: 15%;  
+    display: inline-block;
+ 
+  }
+}
+
+
+@media (max-width: 200px){
+  table, td {
+
+	width: 40%;
+	height: 40%;  
+    
+ 
+  }
+}
+
+
+	table{
+		width: 95%;
+		height: 95%;
+		margin: 2%;
+		position: center;
+			border: groove;
+		background-color: #9999ff;
+		color: #061306;
+		margin-top: 4%;
+		border: none;
+	}
+
+	.hora{
+		width: 6%;
+		background-color: #9999ff;
+		color: black;
+		border-top-style: solid;
+		border-top-width: 1px;
+		border-top-color: 	#6633ff; 
+	}
+	body{
+		 background: url(../imagenes/bg1.png) no-repeat center center fixed ; 
+		 
+  			font-family:  sans-serif;
+			}
+
