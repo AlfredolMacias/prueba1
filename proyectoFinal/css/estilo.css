@@ -42,14 +42,14 @@
 	}
 
 
-@media (max-width: 1024px){
+/*@media (max-width: 1024px){
   #profe, #materia {
 
 	width: 15%;  
     display: inline-block;
  
   }
-}
+}*/
 
 
 @media (max-width: 200px){
@@ -88,4 +88,27 @@
 		 
   			font-family:  sans-serif;
 			}
+@media (max-width:700px){
+	.form1{
+			display: block;
+			width: 100%;	
+	}
+
+	
+}	
+
+@media (max-width:300px){
+	table{
+		width: 40%;
+		height: 95%;
+		margin: 2%;
+		position: center;
+			border: groove;
+		background-color: #9999ff;
+		color: #061306;
+		margin-top: 4%;
+		border: none;
+	}
+
+}		
 
