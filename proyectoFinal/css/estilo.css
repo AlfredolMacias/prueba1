@@ -13,7 +13,7 @@
 		color: #808080;
 	}
 	button{
-		  background-color: #4CAF50;
+		  background-color: #00B16A;
    border: none;
     color: white;
     padding: 8px 24px;
@@ -24,7 +24,7 @@
 	button:hover{
 
   cursor: pointer;
-  background-color: #b3003b;
+  background-color: #2ECC71;
   color: white;
 }
 	
@@ -68,20 +68,13 @@
 		height: 95%;
 		margin: 2%;
 		position: center;
-			border: groove;
-		background-color: #9999ff;
+		border: 1px solid #E4F1FE;
 		color: #061306;
 		margin-top: 4%;
 		border: none;
 	}
-
-	.hora{
+.hora{
 		width: 6%;
-		background-color: #9999ff;
-		color: black;
-		border-top-style: solid;
-		border-top-width: 1px;
-		border-top-color: 	#6633ff; 
 	}
 	body{
 		 background: url(../imagenes/bg1.png) no-repeat center center fixed ; 
@@ -110,5 +103,18 @@
 		border: none;
 	}
 
-}		
-
+}
+th{
+	color: #ffffff;
+}
+select {
+	color: #ffffff;
+  border: none;
+  width: 100px;
+  background-color: #fff;
+  padding: 5px 8px;
+  box-shadow: none;
+  background-color: transparent;
+  background-image: none;
+  appearance: none;
+}
