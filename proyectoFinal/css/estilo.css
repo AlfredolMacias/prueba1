@@ -118,3 +118,6 @@ select {
   background-image: none;
   appearance: none;
 }
+option{
+	color: #000000;
+}
